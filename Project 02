@@ -1,0 +1,37 @@
+import java.io.FileReader;
+import java.io.IOException;
+import java.io.BufferedReader;
+import java.util.Scanner;
+
+
+public class FamilyTree
+{
+    
+    public static void main(String[] args) throws IOException
+	{
+       
+        try(BufferedReader in = new BufferedReader(new FileReader("E:/bob.ged"))) 
+		{
+            Scanner s= new Scanner(in);
+            s.nextLine();
+            while(s.hasNext())
+			{
+				String str = s.nextLine(); 
+                String[] getInput = str.split(" ");
+                System.out.println(str);
+                
+                System.out.println("level #= "+getInput[0]); 
+                if(getInput[1].startsWith("_")|| getInput[1].startsWith("@"))
+				{
+                    System.out.println(getInput[1] +" is invalid tag");
+                }
+				else
+				{
+                    System.out.println(getInput[1]+" is valid tag");
+                }
+                System.out.println();
+            }
+            s.close();
+        }
+    }
+}
