@@ -1,0 +1,48 @@
+ID = 1
+FirstName = neel
+LastName = patel
+Sex = m
+FatherName = bhavesh
+MotherName = pratima
+FamilyName = 1
+-------------------------------------------------------------------------------------------
+ID = 2
+FirstName = priyanka
+LastName = patel
+Sex = f
+FatherName = bhavesh
+MotherName = pratima
+FamilyName = 1
+-------------------------------------------------------------------------------------------
+ID = 3
+FirstName = drasty
+LastName = patel
+Sex = F
+FatherName = harish
+MotherName = rekha
+FamilyName = 2
+-------------------------------------------------------------------------------------------
+ID = 4
+FirstName = manthan
+LastName = patel
+Sex = m
+FatherName = harish
+MotherName = rekha
+FamilyName = 2
+-------------------------------------------------------------------------------------------
+ID = 5
+FirstName = bhavesh
+LastName = patel
+Sex = m
+FatherName = rati
+MotherName = kanta
+FamilyName = 3
+-------------------------------------------------------------------------------------------
+ID = 6
+FirstName = pratima
+LastName = patel
+Sex = f
+FatherName = ambu
+MotherName = kamla
+FamilyName = 4
+-------------------------------------------------------------------------------------------
